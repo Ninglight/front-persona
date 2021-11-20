@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 14px;
+}
+
+.links {
+
+}
+
+.link { 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #7F7F7F;
+    text-align: center;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: 600;
+    color: #000000;
+}

@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext", "es2019"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "baseUrl": ".",
+        "paths": {
+            "@lib/hoc": ["./lib/hoc"],
+            "@lib/hook": ["./lib/hook"],
+            "@lib/models": ["./lib/models"],
+            "@lib/utils": ["./lib/utils"],
+            "@lib/hooks": ["./lib/hooks"],
+            "@lib/constants": ["./lib/constants"],
+            "@components": ["./components"]
+        }
+    },
+    "include": ["typings.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"]
+}

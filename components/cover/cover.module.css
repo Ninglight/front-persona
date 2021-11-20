@@ -1,0 +1,35 @@
+.cover {
+    padding: 130px 0;
+}
+
+.catchphrase {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(95,133,117,0.50);
+    letter-spacing: 0.8px;
+    margin-bottom: 4px;
+    line-height: 18px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 55px;
+    color: #000000;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ABBFB7;
+}
+
+.description {
+    font-size: 16px;
+    color: #000000;
+    line-height: 30px;
+}
+
+.illustration {
+    text-align: center;
+}

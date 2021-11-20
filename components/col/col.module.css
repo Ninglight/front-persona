@@ -1,0 +1,17 @@
+.col {
+    padding: 14px;
+}
+
+.col[data-size='1'] {
+    width: calc(100%/3);
+}
+
+
+.col[data-size='2'] {
+    width: calc(100%/3*2);
+}
+
+
+.col[data-size='3'] {
+    width: 100%;
+}

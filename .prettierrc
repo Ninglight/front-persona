@@ -1,0 +1,17 @@
+{
+    "printWidth": 160,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "jsxBracketSameLine": true,
+    "htmlWhitespaceSensitivity": "ignore",
+    "endOfLine": "auto",
+    "overrides": [
+        {
+            "files": ["*.css", "*.scss"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}
