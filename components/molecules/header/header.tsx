@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
-import Logo from '../../public/assets/logo.svg';
+import Logo from '../../../public/assets/logo.svg';
 import styles from './header.module.css';
 
 export const Header = (): JSX.Element => {

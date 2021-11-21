@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Footer, Cover, Container } from 'components';
+import { Header, Footer, Cover, Container, About, Contact, Works } from 'components';
 import { useSpring, animated } from 'react-spring';
 import { NextSeo } from 'next-seo';
 import withApollo from '../lib/utils/apollo';
@@ -12,11 +12,14 @@ const Index = (): JSX.Element => {
 
     return (
         <>
-            <NextSeo title="CV" />
+            <NextSeo title="valentinbourreau" />
             <Container>
                 <Header />
                 <main>
                     <Cover />
+                    <About />
+                    <Works />
+                    <Contact />
                 </main>
                 <Footer />
             </Container>

@@ -15,3 +15,10 @@
 .col[data-size='3'] {
     width: 100%;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .col[data-size='1'], .col[data-size='2'], .col[data-size='3'] {
+        width: 100%;
+    }
+}

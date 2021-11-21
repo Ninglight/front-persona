@@ -7,8 +7,10 @@
     padding: 0 14px;
 }
 
-.links {
-
+@media only screen and (max-width: 768px) {
+    .links {
+        display: none;
+    }
 }
 
 .link { 

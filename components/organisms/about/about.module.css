@@ -1,0 +1,56 @@
+.about {
+    padding: 0 0 130px 0;
+}
+
+.row {
+    padding: 80px 0;
+}
+
+.content {
+    margin-bottom: 70px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 36px;
+    color: #000000;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #000000;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.links > .link:not(:last-child) {
+    margin-right: 24px;
+}
+
+.link {
+    font-weight: 600;
+    font-size: 14px;
+    color: #ABBFB7;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementTitle {
+    padding-top: 30px;
+
+}
+
+.elementDescription {
+    opacity: 0.7;
+    font-size: 16px;
+    color: #000000;
+    line-height: 30px;
+}

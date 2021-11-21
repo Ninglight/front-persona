@@ -1,9 +1,9 @@
 import React from 'react';
 
 export interface ColProps {
-    size: ColSize;
+    size?: ColSize;
     children: React.ReactNode;
-    className: string;
+    className?: string;
 }
 
 export type ColSize = 1 | 2 | 3;

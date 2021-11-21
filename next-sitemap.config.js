@@ -1,3 +1,4 @@
 module.exports = {
-    generateRobotsTxt: true
+    generateRobotsTxt: true,
+    exclude: ['/404', '/500']
 };
