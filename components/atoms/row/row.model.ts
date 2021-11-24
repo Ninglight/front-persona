@@ -4,4 +4,5 @@ export interface RowProps {
     className?: string;
     children: React.ReactNode;
     id?: string;
+    reverse?: boolean;
 }

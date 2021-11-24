@@ -5,4 +5,9 @@
     font-size: 12px;
     font-family: 'Karla';
     height: 60px;
+    line-height: 16px;
+}
+
+.footer * {
+    display: inline;
 }

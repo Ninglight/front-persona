@@ -24,9 +24,18 @@ export const About = (): JSX.Element => {
                                 développer mes affinités avec React qui se basait principalement sur la notion de composants. Je me spécialise sur cette
                                 technologie depuis ces deux dernières années.
                             </p>
-                            <Link className={styles.link} href="">
+                            <Link className={styles.link} href="https://github.com/Ninglight" target="_blank">
                                 Voir mon travail sur Github
                             </Link>
+                        </>
+                    </Col>
+                    <Col size={1} className={styles.element}>
+                        <>
+                            <NewsIllustration />
+                            <Title level={3} className={styles.elementTitle}>
+                                Editorial website
+                            </Title>
+                            <p className={styles.elementDescription}>JAMStack, Gatsby, hugo, déploiement sur le cloud, prismic, ghost, CI/CD.</p>
                         </>
                     </Col>
                     <Col size={1} className={styles.element}>
@@ -38,15 +47,6 @@ export const About = (): JSX.Element => {
                             <p className={styles.elementDescription}>
                                 React, redux, rxjs, gatsby, hugo, polymer, laravel, nodejs, symfony, webpack, angular, sass, JAMStack, les solutions clouds.
                             </p>
-                        </>
-                    </Col>
-                    <Col size={1} className={styles.element}>
-                        <>
-                            <NewsIllustration />
-                            <Title level={3} className={styles.elementTitle}>
-                                Editorial website
-                            </Title>
-                            <p className={styles.elementDescription}>JAMStack, Gatsby, hugo, déploiement sur le cloud, prismic, ghost, CI/CD.</p>
                         </>
                     </Col>
                     <Col size={1} className={styles.element}>
@@ -77,18 +77,18 @@ export const About = (): JSX.Element => {
                                 utilisateur, zoning, wireframing, prototyping, experience map, mobile first, atomic design, iconographie, support print.
                             </p>
                             <div className={styles.links}>
-                                <a className={styles.link} href="">
+                                <Link className={styles.link} href="https://dribbble.com/valentinbourreau" target="_blank">
                                     Voir mon travail sur Dribbble
-                                </a>
-                                <a className={styles.link} href="">
+                                </Link>
+                                <Link className={styles.link} href="https://www.behance.net/valentinbourreau" target="_blank">
                                     Voir mon travail sur Behance
-                                </a>
+                                </Link>
                             </div>
                         </>
                     </Col>
                 </>
             </Row>
-            <Row className={styles.row}>
+            <Row className={styles.row} reverse={true}>
                 <>
                     <Col size={2}>
                         <>

@@ -1,5 +1,15 @@
 .row {
     display: flex;
-    align-items: row;
+    align-items: center;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
 }

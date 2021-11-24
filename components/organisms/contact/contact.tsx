@@ -6,7 +6,7 @@ import ContactIllustration from '../../../public/assets/contact.svg';
 export const Contact = (): JSX.Element => {
     return (
         <section id="contact" className={styles.contact}>
-            <Row>
+            <Row reverse={true}>
                 <>
                     <Col size={2}>
                         <>

@@ -6,12 +6,13 @@ import withApollo from '../lib/utils/apollo';
 import { gql, useQuery } from '@apollo/client';
 
 const Index = (): JSX.Element => {
+    const container = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } });
     const librairyProps = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } });
     const documentationProps = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, delay: 500 });
     const starterProps = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, delay: 1000 });
 
     return (
-        <>
+        <animated.div style={container}>
             <NextSeo title="valentinbourreau" />
             <Container>
                 <Header />
@@ -23,7 +24,7 @@ const Index = (): JSX.Element => {
                 </main>
                 <Footer />
             </Container>
-        </>
+        </animated.div>
     );
 };
 
