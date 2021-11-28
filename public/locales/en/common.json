@@ -69,5 +69,10 @@
         "START": "© valentinbourreau.com. thanks to",
         "LINK": "coco material",
         "END": "for illustrations🤍"
+    },
+    "ERRORS": {
+        "404": "404 - You seems lost",
+        "500": "500 - An error occurred",
+        "BACK": "Go back to home"
     }
 }

@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: var(--gui-header-height);
     padding: 0 14px;
 }
 

@@ -43,7 +43,7 @@
     --gui-h1-font-size: 45px;
     --gui-h1-line-height: 50px;
     --gui-h1-mobile-font-size: 44px;
-    --gui-h1-mobile-line-height: 40px;
+    --gui-h1-mobile-line-height: 50px;
 
     --gui-h2-font-size: 36px;
     --gui-h2-line-height: 42px;
@@ -81,5 +81,10 @@
         Header
     */
     --gui-header-height: 80px;
+
+    /**
+        Footer
+    */
+    --gui-footer-height: 60px;
   
 }
