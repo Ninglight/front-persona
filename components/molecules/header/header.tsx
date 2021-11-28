@@ -32,7 +32,7 @@ export const Header = (): JSX.Element => {
                         {t('HEADER.LINKS.PAPER')}
                     </a>
                 </div>
-                |
+                <span className={styles.separator}>|</span>
                 <div className={styles.intl}>
                     <Link href="/" locale="fr">
                         <a className={`${styles.link} ${router.locale === 'fr' ? styles.active : ''}`}>{t('HEADER.INTL.FR')}</a>
