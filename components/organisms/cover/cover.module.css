@@ -3,13 +3,11 @@
     position: relative;
 }
 
-
 @media screen and (max-width: 900px) {
     .cover {
         padding: 0px 0 30px 0;
     }
 }
-
 
 .catchphrase {
     text-transform: uppercase;
@@ -22,18 +20,25 @@
 }
 
 .title {
-    color: #000000;
+    color: var(--gui-color-secondary);
     line-height: 60px;
     margin-bottom: 10px;
 }
 
-.highlight {
-    color: #ABBFB7;
+.highlight * {
+    color: var(--gui-color-primary);
+    display: inline;
+}
+
+@media screen and (max-width: 900px) {
+    .highlight {
+        display: block;
+    }
 }
 
 .description {
-    font-size: 16px;
-    color: #000000;
+    font-size: var(--gui-text-font-size-lg);
+    color: var(--gui-color-secondary);
     line-height: 30px;
 }
 

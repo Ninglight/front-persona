@@ -1,7 +1,19 @@
 .row {
     display: flex;
-    align-items: center;
+    
     flex-wrap: wrap;
+}
+
+.start {
+    align-items: flex-start;
+}
+
+.center {
+    align-items: center;
+}
+ 
+.end {
+    align-items: flex-end;
 }
 
 @media screen and (max-width: 900px) {

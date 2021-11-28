@@ -1,23 +1,28 @@
 import React from 'react';
-import { useSpring, animated } from 'react-spring';
 import styles from './cover.module.css';
 import CoverIllustration from '../../../public/assets/cover.svg';
-import { Col, Row, Title } from '@components';
+import { Col, Row, Typewriter, Title } from '@components';
+import { useTranslation } from 'next-i18next';
 
 export const Cover = (): JSX.Element => {
+    const { t } = useTranslation('common');
+
     return (
         <Row id="cover" className={styles.cover} reverse={true}>
             <Col size={2} className={styles.content}>
                 <>
-                    <p className={styles.catchphrase}>Développeur front-end créatif</p>
+                    <p className={styles.catchphrase}>{t('COVER.CATCHPHRASE')}</p>
                     <Title level={1} className={styles.title}>
-                        Je pense, design et crée des <span className={styles.highlight}>émotions</span> pour le web
+                        {t('COVER.TITLE.START')}
+                        <br />
+                        <span className={styles.highlight}>
+                            <Typewriter
+                                texts={[t('COVER.TITLE.KEYWORDS.1'), t('COVER.TITLE.KEYWORDS.2'), t('COVER.TITLE.KEYWORDS.3'), t('COVER.TITLE.KEYWORDS.4')]}
+                            />
+                        </span>{' '}
+                        {t('COVER.TITLE.END')}
                     </Title>
-                    <p className={styles.description}>
-                        J’ai toujours était passionné par le web et sa valeur en tant qu’outil universel. En tant qu’artisan du web, j’ai étoffé mon
-                        savoir-faire en décortiquant cet outil sous tous ses coutures durant les 8 dernières années : UI/UX Design, Développement Front-end,
-                        Développement Back-end et la gestion de projet informatique.
-                    </p>
+                    <p className={styles.description}>{t('COVER.DESCRIPTION')}</p>
                 </>
             </Col>
             <Col size={1} className={styles.illustration}>

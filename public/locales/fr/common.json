@@ -1,0 +1,73 @@
+{
+    "HEADER": {
+        "LINKS": {
+            "ABOUT": "À propos",
+            "WORKS": "Travaux",
+            "CONTACT": "Contact",
+            "PAPER": "Format papier"
+        },
+        "INTL": {
+            "FR": "FR",
+            "EN": "EN"
+        }
+    },
+    "COVER": {
+        "CATCHPHRASE": "Développeur front-end créatif",
+        "TITLE": {
+            "START": "Je pense, design et crée des",
+            "END": "pour le web",
+            "KEYWORDS": {
+                "1": "émotions",
+                "2": "expériences",
+                "3": "usages",
+                "4": "solutions"
+            }
+        },
+        "DESCRIPTION": "J’ai toujours était passionné par le web et sa valeur en tant qu’outil universel. En tant qu’artisan du web, j’ai étoffé mon savoir-faire en décortiquant cet outil sous tous ses coutures durant les 8 dernières années : UI/UX Design, Développement Front-end, Développement Back-end et la gestion de projet informatique."
+    },
+    "ABOUT": {
+        "DEV": {
+            "TITLE": "Je développe des interfaces pour de multiples supports",
+            "DESCRIPTION": "Après plusieurs années à me chercher et à trouver l’inspiration, j’ai trouvé un domaine qui me correspond par rapport à mes aspirations personnels : le soucis du détail, l’empathie pour les utilisateurs, la logique et les belles réalisations. J’ai découvert le poste de développeur front-end au moment de l’emergence des framework Javascript : React, Angular, Vue. J’ai pu développer mes affinités avec React qui se basait principalement sur la notion de composants. Je me spécialise sur cette technologie depuis ces deux dernières années.",
+            "LINK": "Voir mon travail sur Github"
+        },
+        "SKILLS": {
+            "EDITORIAL": {
+                "TITLE": "Editorial website",
+                "DESCRIPTION": "JAMStack, Gatsby, hugo, déploiement sur le cloud, prismic, ghost, CI/CD."
+            },
+            "APP": {
+                "TITLE": "Application web / PWA",
+                "DESCRIPTION": "React, redux, rxjs, gatsby, hugo, polymer, laravel, nodejs, symfony, webpack, angular, sass, JAMStack."
+            },
+            "MOBILE": {
+                "TITLE": "Mobile app",
+                "DESCRIPTION": "React Native, ionic, expo."
+            }
+        },
+        "DESIGN": {
+            "TITLE": "J’ai étudié l’UI et l’UX design durant 2 ans",
+            "DESCRIPTION": "Les interfaces ont toujours était le côté le plus jubilatoire de mon travail. Les principes de l’UX ont toujours été essentiel dans la conception des projets auquel je participant. C’est dans l’optique d’approfondir cette reflexion que je me suis réorrienté pour une seconde licence en UI/UX Design et en développement front-end. J’ai pu y exercé :Interview, tests utilisateur, zoning, wireframing, prototyping, experience map, mobile first, atomic design, iconographie, support print.",
+            "LINKS": {
+                "DRIBBBLE": "Voir mon travail sur Dribbble",
+                "BEHANCE": "Voir mon travail sur Behance"
+            }
+        },
+        "PROJECT": {
+            "TITLE": "J’ai besoin d’inventorisé, plannifié et suivre la vue d’ensemble d’un projet",
+            "DESCRIPTION": "Ma dernière année d’étude était centré sur la gestion de projet et m’a sensibilisé à la gestion d’une équipe, aux méthodologies de gestion de projet (Agilité, scrum, extrem programming, lean software development), à la délégation et aux notions financières.De plus, mon implication au sein de l’agence web Troopers, une entreprise libérée, m’a permit de mettre en pratique la théorie apprise au sein de l’IMIE et découvrir les problématiques de gouvernance de divers typologies de projet."
+        }
+    },
+    "WORKS": {
+        "TITLE": "J'ai travaillé sur"
+    },
+    "CONTACT": {
+        "TITLE": "Laissez moi un message pour tous les raisons, mais des bonnes",
+        "LINK": "Délivrer un message"
+    },
+    "FOOTER": {
+        "START": "© valentinbourreau.com. merci à",
+        "LINK": "coco material",
+        "END": "pour les illustrations 🤍"
+    }
+}

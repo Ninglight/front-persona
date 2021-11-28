@@ -8,7 +8,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .links {
+    .actions {
         display: none;
     }
 }
@@ -16,13 +16,30 @@
 .link { 
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 14px;
-    color: #7F7F7F;
+    font-size: var(--gui-text-font-size);
+    color: var(--gui-color-secondary-lighten);
     text-align: center;
     text-decoration: none;
+    transition: opacity ease-in-out 200ms;
+}
+.link:last-child { 
+    padding-right: 15px;
+}
+
+.link:hover { 
+    opacity: .6;
 }
 
 .active {
     font-weight: 600;
-    color: #000000;
+    color: var(--gui-color-secondary);
+}
+
+.links, .intl {
+    display: inline-block;
+}
+
+.intl svg {
+    height: 30px;
+    width: 40px;
 }

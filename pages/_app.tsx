@@ -5,8 +5,9 @@ import { DefaultSeo } from 'next-seo';
 import Head from 'next/head';
 import { ApolloProvider } from '@apollo/client';
 import apolloClient from 'lib/utils/apollo';
+import { appWithTranslation } from 'next-i18next';
 
-function App({ Component, pageProps, router }: AppProps): JSX.Element {
+const App = ({ Component, pageProps, router }: AppProps): JSX.Element => {
     const [pageLoaded, setPageLoaded] = useState(false);
 
     useEffect(() => {
@@ -29,6 +30,6 @@ function App({ Component, pageProps, router }: AppProps): JSX.Element {
             </div>
         </ApolloProvider>
     );
-}
+};
 
-export default App;
+export default appWithTranslation(App);

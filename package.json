@@ -15,11 +15,13 @@
         "@apollo/client": "^3.4.17",
         "axios": "^0.21.1",
         "graphql": "^16.0.1",
-        "next": "^11.0.1",
+        "next": "^12.0.4",
         "next-apollo": "^5.0.7",
+        "next-i18next": "^9.2.0",
         "next-seo": "^4.26.0",
         "react-spring": "^9.3.0",
-        "react-visibility-sensor": "^5.1.1"
+        "react-visibility-sensor": "^5.1.1",
+        "typewriter-effect": "^2.18.2"
     },
     "devDependencies": {
         "@svgr/webpack": "^5.5.0",

@@ -1,6 +1,6 @@
 .link {
     font-weight: 700;
-    color: #ABBFB7;
+    color: var(--gui-color-primary);
     line-height: 16px;
     transition: ease-in-out opacity 200ms;
     text-decoration: none;

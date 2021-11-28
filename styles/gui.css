@@ -1,0 +1,85 @@
+:root {
+    /** 
+        Colors
+    */
+    --gui-color-white: rgb(255, 255, 255);
+    --gui-color-black: rgb(34, 34, 34);
+
+    --gui-color-primary: rgb(171, 191, 183);
+    --gui-color-primary-darken: rgb(87, 189, 111);
+    --gui-color-primary-lighten: 209, 234, 192;
+
+    --gui-color-secondary: rgb(0, 0, 0);
+    --gui-color-secondary-lighten: rgb(127, 127, 127);
+
+    --gui-color-success: rgb(137, 230, 175);
+    --gui-color-success-darken: rgb(87, 189, 111);
+    --gui-color-success-lighten: rgb(209, 234, 192);
+
+    --gui-color-info: rgb(255, 247, 235);
+    --gui-color-info-darken: rgb(248, 227, 194);
+    --gui-color-info-lighten: rgb(255, 253, 249);
+
+    --gui-color-warning: rgb(218, 149, 46);
+    --gui-color-warning-darken: rgb(168, 115, 35);
+    --gui-color-warning-lighten: rgb(211, 176, 123);
+
+    --gui-color-danger: rgb(253, 132, 137);
+    --gui-color-danger-darken: rgb(255, 92, 92);
+    --gui-color-danger-lighten: rgb(255, 238, 238);
+
+    --gui-color-gray: rgb(245, 246, 248);
+    --gui-color-gray-darken: rgb(107, 101, 118);
+    --gui-color-gray-lighten: rgb(251, 251, 253);
+    --gui-color-gray-active: rgb(227, 227, 230);
+
+    --gui-color-background-default: var(--gui-color-white);
+
+    /** 
+        Heading
+    */
+    --gui-heading-font-weight: 800;
+
+    --gui-h1-font-size: 45px;
+    --gui-h1-line-height: 50px;
+    --gui-h1-mobile-font-size: 44px;
+    --gui-h1-mobile-line-height: 40px;
+
+    --gui-h2-font-size: 36px;
+    --gui-h2-line-height: 42px;
+    --gui-h2-mobile-font-size: 24px;
+    --gui-h2-mobile-line-height: 28px;
+
+    --gui-h3-font-size: 24px;
+    --gui-h3-line-height: 30px;
+    --gui-h3-mobile-font-size: 20px;
+    --gui-h3-mobile-line-height: 24px;
+
+    /**
+        Text
+    */
+    --gui-text-font-size-xs: 10px;
+    --gui-text-font-size-sm: 12px;
+    --gui-text-font-size-default: 14px;
+    --gui-text-font-size-lg: 16px;
+
+    --gui-text-font-weight-default: 400;
+    --gui-text-font-weight-medium: 600;
+    --gui-text-font-weight-bold: 800;
+
+    --gui-text-font-size: var(--gui-text-font-size-default);
+    --gui-text-font-weight: var(--gui-text-font-weight-default);
+
+    /**
+        Border radius
+    */
+    --gui-border-radius-small: 5px;
+    --gui-border-radius-medium: 7px;
+    --gui-border-radius-large: 9px;
+
+    /**
+        Header
+    */
+    --gui-header-height: 80px;
+  
+}
