@@ -71,8 +71,8 @@
         "END": "pour les illustrations 🤍"
     },
     "ERRORS": {
-        "404": "404 - Vous semblez perdu",
-        "500": "500 - Une erreur est survenue",
+        "404": "J’ai beau cherché,<br/>je trouve pas…",
+        "500": "On a eu un petit problème",
         "BACK": "Retourner à l'accueil"
     }
 }

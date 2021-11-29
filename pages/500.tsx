@@ -5,6 +5,7 @@ import { Button, Container, Footer, Header, Title } from '@components';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
+import ErrorIllustration from '../public/assets/500.svg';
 
 const Custom500 = (): JSX.Element => {
     const container = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } });
@@ -24,7 +25,16 @@ const Custom500 = (): JSX.Element => {
                         justifyContent: 'center',
                         textAlign: 'center'
                     }}>
-                    <Title level={1}>{t('ERRORS.500')}</Title>
+                    <ErrorIllustration />
+                    <div
+                        style={{
+                            margin: '30px 0 10px 0'
+                        }}>
+                        <Title level={1}>
+                            <span dangerouslySetInnerHTML={{ __html: t('ERRORS.500') }} />
+                        </Title>
+                    </div>
+
                     <Link href={'/'}>
                         <a>
                             <Button>{t('ERRORS.BACK')}</Button>
