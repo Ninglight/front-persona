@@ -6,6 +6,7 @@ import Head from 'next/head';
 import { ApolloProvider } from '@apollo/client';
 import apolloClient from 'lib/utils/apollo';
 import { appWithTranslation } from 'next-i18next';
+import { ThemeProvider } from 'components/atoms';
 
 const App = ({ Component, pageProps, router }: AppProps): JSX.Element => {
     const [pageLoaded, setPageLoaded] = useState(false);

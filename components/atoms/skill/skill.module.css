@@ -1,0 +1,26 @@
+.skill {
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .skill {
+        padding-bottom: 60px;
+    }
+}
+
+.skill svg {
+    height: 110px;
+}
+
+
+.title {
+    padding-top: 14px;
+}
+
+.description {
+    opacity: 0.7;
+    font-size: var(--gui-text-font-size-lg);
+    color: var(--gui-color-secondary);
+    line-height: 30px;
+}

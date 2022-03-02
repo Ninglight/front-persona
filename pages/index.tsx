@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Footer, Cover, Container, About, Contact, Works } from 'components';
+import { Container, CoverWip } from 'components';
 import { useSpring, animated } from 'react-spring';
 import { NextSeo } from 'next-seo';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -10,15 +10,8 @@ const Index = (): JSX.Element => {
     return (
         <animated.div style={container}>
             <NextSeo title="valentinbourreau" />
-            <Container>
-                <Header />
-                <main>
-                    <Cover />
-                    <About />
-                    <Works />
-                    <Contact />
-                </main>
-                <Footer />
+            <Container theme="none">
+                <CoverWip />
             </Container>
         </animated.div>
     );

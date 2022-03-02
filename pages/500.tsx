@@ -14,7 +14,7 @@ const Custom500 = (): JSX.Element => {
     return (
         <animated.div style={container}>
             <NextSeo title="valentinbourreau" noindex={true} />
-            <Container>
+            <Container theme="none">
                 <Header />
                 <main
                     style={{

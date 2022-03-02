@@ -1,9 +1,15 @@
+.black {
+    color: var(--gui-color-secondary);
+}
+
+.white {
+    color: var(--gui-color-white);
+}
+
 h1.title {
     font-weight: var(--gui-heading-font-weight);
     font-size: var(--gui-h1-font-size);
-    color: var(--gui-color-secondary);
     line-height: var(--gui-h1-line-height);
-    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -16,7 +22,6 @@ h1.title {
 h2.title {
     font-weight: var(--gui-heading-font-weight);
     font-size: var(--gui-h2-font-size);
-    color: var(--gui-color-secondary);
     line-height: var(--gui-h2-line-height);
     margin-bottom: 10px;
 }
@@ -31,7 +36,6 @@ h2.title {
 h3.title {
     font-weight: var(--gui-heading-font-weight);
     font-size: var(--gui-h3-font-size);
-    color: var(--gui-color-secondary);
     line-height: var(--gui-h3-line-height);
     margin-bottom: 4px;
 }

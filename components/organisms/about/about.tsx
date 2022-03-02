@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './about.module.css';
-import { Col, Link, Row, Title } from '@components';
+import { Col, Link, Row, Skill, Title } from '@components';
 import WebIllustration from '../../../public/assets/web.svg';
 import NewsIllustration from '../../../public/assets/news.svg';
 import MobileIllustration from '../../../public/assets/mobile.svg';
@@ -27,27 +27,15 @@ export const About = (): JSX.Element => {
             </Row>
             <Row verticalAlignement={RowAlignment.START}>
                 <Col size={1} className={styles.element}>
-                    <NewsIllustration />
-                    <Title level={3} className={styles.elementTitle}>
-                        {t('ABOUT.SKILLS.EDITORIAL.TITLE')}
-                    </Title>
-                    <p className={styles.elementDescription}>{t('ABOUT.SKILLS.EDITORIAL.DESCRIPTION')}</p>
+                    <Skill logo={NewsIllustration} title={t('ABOUT.SKILLS.EDITORIAL.TITLE')} description={t('ABOUT.SKILLS.EDITORIAL.DESCRIPTION')} />
                 </Col>
                 <Col size={1} className={styles.element}>
-                    <WebIllustration />
-                    <Title level={3} className={styles.elementTitle}>
-                        {t('ABOUT.SKILLS.APP.TITLE')}
-                    </Title>
-                    <p className={styles.elementDescription}>{t('ABOUT.SKILLS.APP.DESCRIPTION')}</p>
+                    <Skill logo={WebIllustration} title={t('ABOUT.SKILLS.APP.TITLE')} description={t('ABOUT.SKILLS.APP.DESCRIPTION')} />
                 </Col>
             </Row>
             <Row verticalAlignement={RowAlignment.START}>
                 <Col size={1} className={styles.element}>
-                    <MobileIllustration />
-                    <Title level={3} className={styles.elementTitle}>
-                        {t('ABOUT.SKILLS.MOBILE.TITLE')}
-                    </Title>
-                    <p className={styles.elementDescription}>{t('ABOUT.SKILLS.MOBILE.DESCRIPTION')}</p>
+                    <Skill logo={MobileIllustration} title={t('ABOUT.SKILLS.MOBILE.TITLE')} description={t('ABOUT.SKILLS.MOBILE.DESCRIPTION')} />
                 </Col>
             </Row>
             <Row className={styles.row}>

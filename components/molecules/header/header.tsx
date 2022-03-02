@@ -5,11 +5,14 @@ import styles from './header.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/dist/client/router';
 import { useTranslation } from 'react-i18next';
+import { ThemeContext } from '@components';
 
 export const Header = (): JSX.Element => {
     const { t } = useTranslation('common');
     const router = useRouter();
     const [currentPath, setCurrentPath] = useState<string>();
+    const { theme, toggle, dark } = React.useContext(ThemeContext);
+
     return (
         <header className={styles.header}>
             <Link href="/" passHref>
@@ -17,6 +20,7 @@ export const Header = (): JSX.Element => {
                     <Logo />
                 </a>
             </Link>
+            <p onClick={() => toggle()}>Mode</p>
             <div className={styles.actions}>
                 <div className={styles.links}>
                     <a className={styles.link} href="#about">

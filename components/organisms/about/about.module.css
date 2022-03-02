@@ -53,24 +53,3 @@
 .illustration {
     margin-bottom: 24px;
 }
-
-.element svg {
-    height: 110px;
-}
-
-@media screen and (max-width: 900px) {
-    .element {
-        padding-bottom: 60px;
-    }
-}
-
-.elementTitle {
-    padding-top: 14px;
-}
-
-.elementDescription {
-    opacity: 0.7;
-    font-size: var(--gui-text-font-size-lg);
-    color: var(--gui-color-secondary);
-    line-height: 30px;
-}

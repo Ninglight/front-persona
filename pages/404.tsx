@@ -13,7 +13,7 @@ const Custom404 = (): JSX.Element => {
     return (
         <animated.div style={container}>
             <NextSeo title="valentinbourreau" noindex={true} />
-            <Container>
+            <Container theme="none">
                 <Header />
                 <Row>
                     <Col size={1} offset={1}>

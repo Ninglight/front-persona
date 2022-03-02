@@ -12,7 +12,8 @@
         }
     },
     "COVER": {
-        "CATCHPHRASE": "Développeur front-end créatif",
+        "CATCHPHRASE": "Développeur <br/>front-end",
+        "NAME": "valentinbourreau",
         "TITLE": {
             "START": "Je pense, design et crée des",
             "END": "pour le web",
@@ -33,8 +34,8 @@
         },
         "SKILLS": {
             "EDITORIAL": {
-                "TITLE": "Editorial website",
-                "DESCRIPTION": "JAMStack, Gatsby, hugo, déploiement sur le cloud, prismic, ghost, CI/CD."
+                "TITLE": "Site éditoriaux",
+                "DESCRIPTION": "JAMStack, Gatsby, hugo, prismic, ghost, webhook, CI/CD."
             },
             "APP": {
                 "TITLE": "Application web / PWA",
