@@ -5,8 +5,8 @@ import styles from './title.module.css';
 
 export const Title = ({ className, level, children }: TitleProps): JSX.Element => {
     const { theme } = React.useContext(ThemeContext);
-    console.log('theme', theme)
-    
+    console.log('theme', theme);
+
     return React.createElement(
         `h${level}`,
         {

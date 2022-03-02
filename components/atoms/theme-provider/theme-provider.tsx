@@ -22,7 +22,7 @@ export const ThemeProvider = ({ children }) => {
 
     const theme = dark ? themes.dark : themes.light;
 
-    console.log('themeProvider', theme)
+    console.log('themeProvider', theme);
 
     return <ThemeContext.Provider value={{ theme, dark, toggle }}>{children}</ThemeContext.Provider>;
 };
